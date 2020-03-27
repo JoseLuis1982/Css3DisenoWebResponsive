@@ -24,9 +24,66 @@ header{
 }
 #secundarias{
 	background-color: #d5c75f;
+	border-width: 1px;
 }
 .encabezado{
 	max-width: 90%;
 	margin-top: 5%;
 	margin-bottom: 5%;
+	box-shadow: 2px 2px 10px #02010a;
+}
+.contenedor {
+display: flex;
+flex-direction:row;
+}
+
+.paisajes{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+
+.retrato{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.paisajes:hover{
+	transform: rotate(10deg);
+	box-shadow: 2px 2px 10px  #82c3a6;
+	border: 2px;
+}
+.retrato:hover{
+	transform: translate(5px, -20px);
+	box-shadow: 2px 2px 10px  #82c3a6;
+	border: 2px;
+}
+
+.Pie {
+	margin: 0;
+ 	padding: 0;
+ 	display: flex;
+	flex-flow: row wrap;
+	background-color: #C6d5c5;
+	border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+}
+.contactos{
+	font-family: dancingscript;
+	width: 20%;	
+}
+.terminos{
+	font-family: dancingscript;
+	width: 20%;
+}
+.redessociales{
+	font-family: dancingscript;
+	width: 20%;
+}
+.derechos{
+	font-family: dancingscript;
+	width: 20%;
 }
