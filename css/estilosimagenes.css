@@ -34,41 +34,46 @@ flex:1 0 30%;
   
 }
 
-.paisajes1{
+.imagen1{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	-webkit-filter:blur(10px);
+}
+.imagen2{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	-webkit-filter:grayscale(100%);
+}
+.imagen3{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	-webkit-filter:sepia(90%);
+}
+.imagen4{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+	-webkit-filter:grayscale(100%);
+}
+.imagen5{
 	max-width: 90%;
 	margin-left: 5%;
 	margin-top: 10%;
 	margin-bottom: 5%;
 }
-.paisajes2{
+.imagen6{
 	max-width: 90%;
 	margin-left: 5%;
 	margin-top: 10%;
 	margin-bottom: 5%;
-}
-.paisajes3{
-	max-width: 90%;
-	margin-left: 5%;
-	margin-top: 10%;
-	margin-bottom: 5%;
-}
-.paisajes4{
-	max-width: 90%;
-	margin-left: 5%;
-	margin-top: 10%;
-	margin-bottom: 5%;
-}
-.paisajes5{
-	max-width: 90%;
-	margin-left: 5%;
-	margin-top: 10%;
-	margin-bottom: 5%;
-}
-.paisajes6{
-	max-width: 90%;
-	margin-left: 5%;
-	margin-top: 10%;
-	margin-bottom: 5%;
+	-webkit-filter:grayscale(100%);
 }
 
 
