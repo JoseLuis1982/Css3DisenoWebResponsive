@@ -18,48 +18,59 @@ header{
 	float: right;
 	color: white;
 }
-#contenido{
-	background-color: #82c3a6;
-	text-align: center;
-}
-#secundarias{
+
+#paisajes{
 	background-color: #d5c75f;
 	border-width: 1px;
 }
-.encabezado{
-	max-width: 90%;
-	margin-top: 5%;
-	margin-bottom: 5%;
-	box-shadow: 2px 2px 10px #02010a;
-}
+
 .contenedor {
-display: flex;
-flex-direction:row;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.paisajes{
+.contenedor > div {
+flex:1 0 30%;
+  
+}
+
+.paisajes1{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.paisajes2{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.paisajes3{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.paisajes4{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.paisajes5{
+	max-width: 90%;
+	margin-left: 5%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
+.paisajes6{
 	max-width: 90%;
 	margin-left: 5%;
 	margin-top: 10%;
 	margin-bottom: 5%;
 }
 
-.retrato{
-	max-width: 90%;
-	margin-left: 5%;
-	margin-top: 10%;
-	margin-bottom: 5%;
-}
-.paisajes:hover{
-	transform: rotate(10deg);
-	box-shadow: 2px 2px 10px  #82c3a6;
-	border: 2px;
-}
-.retrato:hover{
-	transform: translate(5px, -20px);
-	box-shadow: 2px 2px 10px  #82c3a6;
-	border: 2px;
-}
 
 .Pie {
 	margin: 0;
